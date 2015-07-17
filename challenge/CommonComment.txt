@@ -1,0 +1,4 @@
+Q: http://www.hacker.org/challenge/chal.php?id=3
+A: http://www.hacker.org/challenge/chal.php?answer=veritas&id=3&go=Submit
+
+Hide in the page source as comment.
