@@ -1,0 +1,4 @@
+Q: http://www.hacker.org/challenge/chal.php?id=10
+A: http://www.hacker.org/challenge/chal.php?answer=squint&id=10&go=Submit
+
+See the text after selecting it.
