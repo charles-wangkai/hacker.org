@@ -1,0 +1,4 @@
+Q: http://www.hacker.org/challenge/chal.php?id=87
+A: http://www.hacker.org/challenge/chal.php?answer=olivedrab&id=87&go=Submit
+
+Google "Netscape named color", and see the page (http://webdesign.about.com/od/colorcharts/l/bl_namedcolors.htm).
