@@ -1,0 +1,4 @@
+Q: http://www.hacker.org/challenge/chal.php?id=57
+A: http://www.hacker.org/challenge/chal.php?answer=thundercats&id=57&go=Submit
+
+Just follow the instructions to read the page (http://www.hacker.org/challenge/misc/goforth.html), then find the embedded sentence "To solve this puzzle you'll need to type the word thundercats."
