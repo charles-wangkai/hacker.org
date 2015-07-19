@@ -1,0 +1,4 @@
+Q: http://www.hacker.org/challenge/chal.php?id=46
+A: http://www.hacker.org/challenge/chal.php?answer=red%2Cgreen%2Cblue&id=46&go=Submit
+
+"#xxxxxx" means RGB color in Computer Science.
