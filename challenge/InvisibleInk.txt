@@ -1,0 +1,4 @@
+Q: http://www.hacker.org/challenge/chal.php?id=11
+A: http://www.hacker.org/challenge/chal.php?answer=blind&id=11&go=Submit
+
+See the text after selecting it.
