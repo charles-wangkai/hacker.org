@@ -1,0 +1,4 @@
+Q: http://www.hacker.org/challenge/chal.php?id=25
+A: http://www.hacker.org/challenge/chal.php?answer=spaghetti&id=25&go=Submit
+
+Fix the submit button by updating HTML source in the submit form from "onSubmit="return false"" to "onSubmit="return true"".
