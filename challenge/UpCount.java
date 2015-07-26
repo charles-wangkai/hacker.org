@@ -1,3 +1,6 @@
+// Q: http://www.hacker.org/challenge/chal.php?id=73
+// A: http://www.hacker.org/challenge/chal.php?answer=38078&id=73&go=Submit
+
 public class UpCount {
 	// Original recursive method
 	// private long calc(int depth) {
