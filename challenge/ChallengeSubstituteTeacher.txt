@@ -1,0 +1,5 @@
+Q: http://www.hacker.org/challenge/chal.php?id=21
+A: http://www.hacker.org/challenge/chal.php?answer=adumbrate&id=21&go=Submit
+
+Use the tool - http://cryptoclub.org/tools/crack_substitutioncipher.php
+Plaintext: "all good hackers can solve basic cryptography. when you find the solution to this text, you will be able to get the answer, which is adumbrate."
