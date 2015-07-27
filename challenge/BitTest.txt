@@ -1,0 +1,2 @@
+Q: http://www.hacker.org/challenge/chal.php?id=62
+A: http://www.hacker.org/challenge/chal.php?answer=power+of+two&id=62&go=Submit
