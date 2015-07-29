@@ -1,0 +1,4 @@
+Q: http://www.hacker.org/challenge/chal.php?id=74
+A: http://www.hacker.org/challenge/chal.php?answer=farglesnort&id=74&go=Submit
+
+Read the page source and find the submit form callback is "onSubmit="return ff(document.frm.answer.value)"", then open the included Javascript file "http://www.hacker.org/challenge/misc/jsi.js" to find the answer. 
