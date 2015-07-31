@@ -1,0 +1,6 @@
+Q: http://www.hacker.org/challenge/chal.php?id=23
+A: http://www.hacker.org/challenge/chal.php?answer=deadmanschest&id=23&go=Submit
+
+Use the tool - http://cryptoclub.org/tools/crack_substitutioncipher.php
+Plaintext: "this cipher is way, way harder than rot thirteen. here, you never know how far to shift! oh by the way, the answer is deadmanschest."
+It is actually ROT*.
