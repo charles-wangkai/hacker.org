@@ -1,0 +1,9 @@
+Q: http://www.hacker.org/challenge/chal.php?id=13
+A: http://www.hacker.org/challenge/chal.php?answer=flippit&id=13&go=Submit
+
+The task is to restore the original text from its hash. It can be done by the popular tool "John the Ripper" (http://www.openwall.com/john/).
+Download the version of "1.8.0-jumbo-1" source, compile, build, and finally run the following commands to crack the password:
+
+$ echo -n "16b87ecc17e3568c83d2d55d8c0d7260" > ~/password_hash.txt
+$ ./john --format=Raw-MD5 ~/password_hash.txt
+$ ./john --format=Raw-MD5 --show ~/password_hash.txt
