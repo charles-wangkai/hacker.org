@@ -1,0 +1,5 @@
+Q: http://www.hacker.org/challenge/chal.php?id=217
+A: http://www.hacker.org/challenge/chal.php?answer=rotating&id=217&go=Submit
+
+Use the tool - http://www.en.fliptext.net
+The processed text is: ʇɥᄐ ʌnsɯᄐɹ ¡s 'ɹoʇʌʇ¡n9'
