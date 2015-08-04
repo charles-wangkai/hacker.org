@@ -1,0 +1,4 @@
+Q: http://www.hacker.org/challenge/chal.php?id=123
+A: http://www.hacker.org/challenge/chal.php?answer=feedabadbeef&id=123&go=Submit
+
+Listen the music carefully to recognize every note, and match [1234567] to [cdefgab].
