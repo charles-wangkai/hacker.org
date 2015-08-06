@@ -5,7 +5,7 @@
 
 import re
 import urllib.request
-from challenge import hacker_org_util
+import hacker_org_util
 
 PROBLEM_ID = '76'
 
