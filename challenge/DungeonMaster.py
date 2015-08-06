@@ -8,7 +8,7 @@ import re
 import urllib.request
 import hacker_org_util
 
-BASE_URL = 'http://www.hacker.org/challenge/misc/d/index.php'
+LEVEL_UP = 4
 
 def is_won(source):
     return 'You are triumphant' in source
@@ -22,11 +22,11 @@ def is_idle(source):
 def has_treasure(source):
     return 'Pick up treasure:' in source
 
-def find_available_moves(source):
-    return re.findall(r'(?<=<a href=index.php\?m=).*?(?=>)', source)
+def find_available_moves(game_id, source):
+    return re.findall(r'(?<=<a href={game_id}.php\?m=).*?(?=>)'.format(game_id=game_id), source)
 
-def find_available_potions(source):
-    return re.findall(r'(?<=<a href=index.php\?potion=).*?(?=>)', source)
+def find_available_potions(game_id, source):
+    return re.findall(r'(?<=<a href={game_id}.php\?potion=).*?(?=>)'.format(game_id=game_id), source)
 
 def find_my_values(source):
     i = re.compile(r'\d+').finditer(source, re.search(r'<th>weapon</th>', source).end() + 1)
@@ -41,15 +41,18 @@ def find_beast_name(source):
 def find_dungeon_level(source):
     return int(re.search(r'<h2>Dungeon Level (\d+)</h2>', source).group(1))
 
-def main():
-    url = BASE_URL
+def play(game_id):
+    base_url = 'http://www.hacker.org/challenge/misc/d/{game_id}.php'.format(game_id=game_id)
+    url = base_url
+    died_num = 0
     prev_hit_points = None
     max_damage = 0
     beast_name = None
     
     while True:
         source = urllib.request.urlopen(hacker_org_util.add_username_password_to_url(url)).read().decode()
-        print(source, flush=True)
+        print('died_num:', died_num)
+        print(source)
         
         if not beast_name:
             beast_name = find_beast_name(source)
@@ -57,7 +60,8 @@ def main():
         if is_won(source):
             break
         elif is_died(source):
-            url = BASE_URL
+            url = base_url
+            died_num += 1
         else:
             my_level, hit_points = find_my_values(source)
             
@@ -68,11 +72,11 @@ def main():
                 if has_treasure(source):
                     parameters = 'tres=1'
                 else:
-                    available_moves = find_available_moves(source)
+                    available_moves = find_available_moves(game_id, source)
                     
                     if 'd' in available_moves:
                         dungeon_level = find_dungeon_level(source)
-                        if my_level < dungeon_level + 2:
+                        if my_level < dungeon_level + LEVEL_UP:
                             available_moves.remove('d')
                     
                     if 'd' in available_moves:
@@ -84,7 +88,7 @@ def main():
                 if prev_hit_points:
                     max_damage = max(max_damage, prev_hit_points - hit_points)
                     
-                available_potions = find_available_potions(source)
+                available_potions = find_available_potions(game_id, source)
                 if available_potions and hit_points <= max_damage:
                     potion = random.choice(available_potions)
                     parameters = 'potion={potion}'.format(potion=potion)
@@ -94,9 +98,12 @@ def main():
                 prev_hit_points = hit_points
             
             print(parameters)
-            url = hacker_org_util.add_username_password_to_url('{base_url}?{parameters}'.format(base_url=BASE_URL, parameters=parameters))
+            url = hacker_org_util.add_username_password_to_url('{base_url}?{parameters}'.format(base_url=base_url, parameters=parameters))
     
     print(beast_name)
+
+def main():
+    play('index')
 
 if __name__ == '__main__':
     main()
