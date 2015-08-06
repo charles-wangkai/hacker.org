@@ -3,7 +3,7 @@
 # Q: http://www.hacker.org/challenge/chal.php?id=77
 # A: (Not fixed answer, so run this script)
 
-from challenge import TypeFast
+import TypeFast
 
 PROBLEM_ID = '77'
 
