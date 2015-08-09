@@ -6,7 +6,7 @@ var keyStr = "ABCDEFGHIJKLMNOP" + "QRSTUVWXYZabcdef" + "ghijklmnopqrstuv"
 
 function encodeIt(input, toEscape) {
 	toEscape = typeof toEscape !== 'undefined' ? toEscape : true;
-	
+
 	if (toEscape) {
 		input = escape(input);
 	}
