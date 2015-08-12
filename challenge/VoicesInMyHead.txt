@@ -1,0 +1,4 @@
+Q: http://www.hacker.org/challenge/chal.php?id=111
+A: http://www.hacker.org/challenge/chal.php?answer=insecticide&id=111&go=Submit
+
+Use the tool (http://www.mp3-reverser.com/en/) to reverse the MP3 file and listen. It says "the answer is insecticide".
