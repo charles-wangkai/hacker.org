@@ -1,0 +1,6 @@
+Q: http://www.hacker.org/challenge/chal.php?id=36
+A: http://www.hacker.org/challenge/chal.php?answer=8.539734&id=36&go=Submit
+
+https://en.wikipedia.org/wiki/Single-precision_floating-point_format
+http://www.binaryconvert.com/result_float.html?hexadecimal=4108A2C0
+Finally, round to the 7th decimal digit. (Because of "the total precision is 24 bits (equivalent to log10(2^24) ≈ 7.225 decimal digits)" from wikipedia)
