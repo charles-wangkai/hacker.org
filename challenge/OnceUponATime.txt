@@ -1,0 +1,5 @@
+Q: http://www.hacker.org/challenge/chal.php?id=189
+A: http://www.hacker.org/challenge/chal.php?answer=abes%2Cfalcon2424&id=189&go=Submit
+
+Use the tool "Internet Archive: Wayback Machine" (http://archive.org/web/)
+http://web.archive.org/web/20070515121419/http://www.hacker.org/
