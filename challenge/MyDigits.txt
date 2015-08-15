@@ -1,0 +1,4 @@
+Q: http://www.hacker.org/challenge/chal.php?id=190
+A: http://www.hacker.org/challenge/chal.php?answer=51006&id=190&go=Submit
+
+Open the sound (http://www.hacker.org/challenge/misc/phone.mp3) in the Music Editor software Audacity, then count pulses visually.
