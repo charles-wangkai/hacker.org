@@ -1,0 +1,4 @@
+Q: http://www.hacker.org/challenge/chal.php?id=47
+A: http://www.hacker.org/challenge/chal.php?answer=watson&id=47&go=Submit
+
+People represent letters. Flag means the end of a word. So it's the cipher text "ab cd eafgd cd hife jkd afbcdl ib cajbmf". Then use the substitution cipher solver (http://quipqiup.com/index.php), get the plain text "as we dance we find the answer is watson".
