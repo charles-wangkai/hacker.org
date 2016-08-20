@@ -1,0 +1,4 @@
+Q: http://www.hacker.org/challenge/chal.php?id=82
+A: http://www.hacker.org/challenge/chal.php?answer=imaginepeeple&id=82&go=Submit
+
+Open the someimage.sgi with a image software such as Mac Preview.
