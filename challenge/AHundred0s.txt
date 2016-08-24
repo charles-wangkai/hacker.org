@@ -1,0 +1,28 @@
+Q: http://www.hacker.org/challenge/chal.php?id=302
+A: http://www.hacker.org/challenge/chal.php?answer=mentalplex&id=302&go=Submit
+
+"A Hundred 0s" -> 10 ^ 100 -> googol -> Google -> Doodle (https://www.google.com/doodles/#archive)
+
+11/02/2011  https://www.google.com/doodles/thomas-edisons-birthday
+15/03/2011  https://www.google.com/doodles/hungarian-national-day-2011
+19/12/2010  https://www.google.com/doodles/edith-piafs-95th-birthday
+24/07/2010  https://www.google.com/doodles/alfonse-muchas-150th-birthday
+09/02/2010  https://www.google.com/doodles/natsume-sosekis-birthday
+06/02/2010  https://www.google.com/doodles/sami-national-day-2010
+18/05/2008 (17/05/2008) https://www.google.com/doodles/125th-birthday-of-walter-gropius
+22/04/2008 (21/04/2008) https://www.google.com/doodles/earth-day-2008
+03/10/2007  https://www.google.com/doodles/german-reunification-day-2007
+04/07/2007  https://www.google.com/doodles/4th-of-july-2007 (Independence Day of the United States)
+01/08/2006  https://www.google.com/doodles/swiss-national-day-2006
+14/05/2006  https://www.google.com/doodles/mothers-day-2006
+22/04/2006 (21/04/2006) https://www.google.com/doodles/earth-day-2006
+16/05/2009  https://www.google.com/doodles/norway-national-day-2009
+06/07/2003  https://www.google.com/doodles/tanabata-2003
+26/10/2009  https://www.google.com/doodles/austrian-national-day-2009
+29/02/2004 (28/04/2004) https://www.google.com/doodles/leap-day-2004
+20/03/2004  https://www.google.com/doodles/persian-new-year-2004
+04/01/2006  https://www.google.com/doodles/louis-brailles-107th-birthday
+25/03/2011  https://www.google.com/doodles/400th-birthday-of-evliya-celebi
+08/11/2010  https://www.google.com/doodles/discovery-of-x-rays
+
+the answer is mentalplex
