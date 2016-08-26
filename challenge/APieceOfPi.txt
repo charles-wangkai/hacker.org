@@ -1,0 +1,4 @@
+Q: http://www.hacker.org/challenge/chal.php?id=91
+A: http://www.hacker.org/challenge/chal.php?answer=186557266&id=91&go=Submit
+
+http://www.angio.net/pi/piquery
