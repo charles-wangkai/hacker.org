@@ -1,0 +1,4 @@
+Q: http://www.hacker.org/challenge/chal.php?id=298
+A: http://www.hacker.org/challenge/chal.php?answer=moolenaar&id=298&go=Submit
+
+See the page source, operate in VIM.
