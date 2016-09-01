@@ -10,7 +10,7 @@ def main():
     local_filename = urllib.request.urlretrieve('http://www.hacker.org/challenge/img/redline.png')[0]
     image = Image.open(local_filename)
     
-    print(''.join([hex(image.getpixel((x, 0))[0])[2:] for x in range(4)]))
+    print(''.join([hex(image.getpixel((x, 0))[0])[2:] for x in range(image.size[0])]))
     
     image.close()
 
