@@ -1,0 +1,19 @@
+Q: http://www.hacker.org/challenge/chal.php?id=257
+A: http://www.hacker.org/challenge/chal.php?answer=adum&id=257&go=Submit
+
+https://countrycode.org/
++90     Turkey
++509    Haiti
++20     Egypt
++355    Albania
++977    Nepal
++46     Sweden
++685    Samoa
++503    El Salvador
++7      Kazakhstan
++98     Iran
++421    Slovakia
++43     Austria
++45     Denmark
++380    Ukraine
++377    Monaco
