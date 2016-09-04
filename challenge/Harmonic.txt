@@ -1,0 +1,4 @@
+Q: http://www.hacker.org/challenge/chal.php?id=124
+A: http://www.hacker.org/challenge/chal.php?answer=deadface&id=124&go=Submit
+
+https://onlinesequencer.net/310177
