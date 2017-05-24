@@ -1,0 +1,4 @@
+Q: http://www.hacker.org/challenge/chal.php?id=32
+A: http://www.hacker.org/challenge/chal.php?answer=ARMSTRONG&id=32&go=Submit
+
+Substitution cipher (by similar shape). The image shows the text "ARMSTRONG IS THE ANSWER YOU SEE!"
