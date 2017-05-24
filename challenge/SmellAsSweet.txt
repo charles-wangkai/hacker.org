@@ -1,0 +1,16 @@
+Q: http://www.hacker.org/challenge/chal.php?id=152
+A: http://www.hacker.org/challenge/chal.php?answer=blowin%27+in+the+wind&id=152&go=Submit
+
+Steps:
+1. Download the file http://www.hacker.org/challenge/misc/smellassweet.gz
+2. Open it by the tool Wireshark.
+3. Go to the No.6 packet. Open the "Line-based text data: text/html" section, and copy the content to a local HTML file, say "smellassweet.html".
+4. Go to the No.42 packet. Open the "Portable Network Graphics" (PNG) section, and save it to a local file "1.png".
+5. Go to the No.46 packet. Open the "Portable Network Graphics" (PNG) section, and save it to a local file "2.png".
+6. Go to the No.50 packet. Open the "Portable Network Graphics" (PNG) section, and save it to a local file "3.png".
+7. Go to the No.54 packet. Open the "Portable Network Graphics" (PNG) section, and save it to a local file "4.png".
+8. Go to the No.58 packet. Open the "Portable Network Graphics" (PNG) section, and save it to a local file "5.png".
+9. Go to the No.62 packet. Open the "Portable Network Graphics" (PNG) section, and save it to a local file "6.png".
+10. Go to the No.66 packet. Open the "Portable Network Graphics" (PNG) section, and save it to a local file "7.png".
+11. Edit the HTML file created in the step 3, change the "src" attribute in the <img> tag to point to the local PNG files.
+12. Open the edited HTML file in a Web browser, it will show the text "the answer, my friend, is blowin' in the wind".
