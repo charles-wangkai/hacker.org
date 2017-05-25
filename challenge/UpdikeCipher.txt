@@ -1,0 +1,4 @@
+Q: http://www.hacker.org/challenge/chal.php?id=142
+A: http://www.hacker.org/challenge/chal.php?answer=goodbyereaders&id=142&go=Submit
+
+See the page (http://www.freerepublic.com/focus/f-news/2022688/posts), "Read the first letter of every paragraph."
