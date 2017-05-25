@@ -9,10 +9,10 @@ import hacker_org_util
 
 PROBLEM_ID = '76'
 
-def solve(problem_id, prompt):
+def solve(problem_id, prompt, post_process=lambda s:s):
     source = urllib.request.urlopen(hacker_org_util.build_challenge_url(problem_id)).read().decode()
     
-    answer = re.search(r'{prompt}.*<b>(.*)</b>'.format(prompt=prompt), source, flags=re.DOTALL).group(1).strip()
+    answer = post_process(re.search(r'{prompt}.*<b>(.*)</b>'.format(prompt=prompt), source, flags=re.DOTALL).group(1).strip())
     print(answer)
     
     print(urllib.request.urlopen(hacker_org_util.build_challenge_url(problem_id, answer)).read().decode())
