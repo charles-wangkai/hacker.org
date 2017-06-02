@@ -1,0 +1,10 @@
+Q: http://www.hacker.org/challenge/chal.php?id=22
+A: http://www.hacker.org/challenge/chal.php?answer=Madagascar&id=22&go=Submit
+
+Vigenère cipher (https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher)
+
+Use the online solver tool (http://www.dcode.fr/vigenere-cipher)
+1. Guess the word "answer" is likely to be included. So use the mode "Knowing a plaintext word: answer" get the most likely key "BOYHACKS".
+2. Use the mode "Knowing the Key: BOYHACKS" to get the follow plaintext.
+
+"This cipher was once thought unbreakable, but now falls to the most basic cryptanalysis. I am sure that you, an aspiring or perhaps accomplished hacker, will have no trouble breaking the encryption. When you do, you will know that Madagascar is the answer that will bring you to the next level. This cipher is known as the vigenere, and is hundreds of years old. It is easily attacked through frequency analysis. Is that how you approached it? I'm making a nice long input text in order to provide just enough data for your analysis. The English language will betray the plaintext through its own patterns."
