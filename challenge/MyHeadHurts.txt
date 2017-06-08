@@ -1,0 +1,5 @@
+Q: http://www.hacker.org/challenge/chal.php?id=184
+A: http://www.hacker.org/challenge/chal.php?answer=dewdrop&id=184&go=Submit
+
+This is written in the Brainfuck programming language (https://en.wikipedia.org/wiki/Brainfuck).
+Open an online interpreter (https://copy.sh/brainfuck/) and run it will get the output: Your answer is "dewdrop"
