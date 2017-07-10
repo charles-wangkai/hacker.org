@@ -10,16 +10,13 @@
 import datetime
 import decimal
 
-PRECISION = 1000000
-ERROR = None
-
-def arctan_for_inverse(denominator):
+def arctan_for_inverse(denominator, error):
     result = decimal.Decimal('1') / decimal.Decimal(denominator)
     
     factor = denominator * denominator
     divisor = 1
     term = result
-    while term > ERROR:
+    while term > error:
         divisor += 2
         term /= factor
         result -= term / divisor
@@ -41,16 +38,19 @@ def find_longest_non_nine_sequence(digits):
             start_index = i + 1
     return result
 
+def compute_pi_digits(precision):
+    decimal.getcontext().prec = precision + 5
+    error = decimal.Decimal('1E{exponent}'.format(exponent=-(precision + 5)))
+    
+    pi = 4 * (4 * arctan_for_inverse(5, error) - arctan_for_inverse(239, error))
+    
+    s = str(pi)
+    return s[:1] + s[2:precision + 1]
+
 def solve():
-    global ERROR
-    
-    decimal.getcontext().prec = PRECISION + 5
-    ERROR = decimal.Decimal('1E{exponent}'.format(exponent=-(PRECISION + 5)))
-    
-    pi = 4 * (4 * arctan_for_inverse(5) - arctan_for_inverse(239))
-    
-    pi_str = str(pi)
-    print(find_longest_non_nine_sequence(pi_str[:1] + pi_str[2:PRECISION + 1]))
+    precision = 1000000
+    pi_digits = compute_pi_digits(precision)
+    print(find_longest_non_nine_sequence(pi_digits))
     
 def main():
     begin_time = datetime.datetime.now()
