@@ -6,8 +6,8 @@
 
 $expr = '$x = $y * 2245 + ($y * 2 - 7);';
 $expr[12] = '*';
-echo($expr);
-echo("\n");
+echo $expr;
+echo "\n";
 
 $y = 79;
 eval($expr);
