@@ -1,0 +1,7 @@
+Q: http://www.hacker.org/challenge/chal.php?id=214
+A: http://www.hacker.org/challenge/chal.php?answer=spock&id=214&go=Submit
+
+Just squint at the image and guess character names in the films related to the outer space.
+
+https://en.wikipedia.org/wiki/Spock
+https://www.google.com.hk/search?q=spock&newwindow=1&safe=active&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjrheuRk5DVAhXEJZQKHTh0CSUQ_AUIBigB&biw=1069&bih=738
