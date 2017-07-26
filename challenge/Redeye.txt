@@ -1,0 +1,6 @@
+Q: http://www.hacker.org/challenge/chal.php?id=291
+A: http://www.hacker.org/challenge/chal.php?answer=HAL9000&id=291&go=Submit
+
+Download the image: http://www.hacker.org/challenge/img/redeye.jpg
+Use an image editor tool like GIMP, close the green channel to make the characters clearer.
+Find the text "Password: HAL9000" near the lower right corner (in the last 4th line).
