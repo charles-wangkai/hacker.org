@@ -1,0 +1,6 @@
+Q: http://www.hacker.org/challenge/chal.php?id=243
+A: http://www.hacker.org/challenge/chal.php?answer=xirtamatad&id=243&go=Submit
+
+Use the Barcode Reader tool - https://online-barcode-reader.inliteresearch.com/
+Select "PDF417" as the barcode type and read.
+The read result is "the answer is xirtamatad".
