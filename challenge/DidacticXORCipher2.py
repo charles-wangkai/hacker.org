@@ -7,7 +7,7 @@ import DidacticXORCipher
 
 def main():
     for key in range(256):
-        plain = DidacticXORCipher.decrypt_xor_cipher('948881859781c4979186898d90c4c68c85878f85808b8b808881c6c4828b96c4908c8d97c4878c858888818a8381', key)
+        plain = DidacticXORCipher.decrypt_xor_cipher('948881859781c4979186898d90c4c68c85878f85808b8b808881c6c4828b96c4908c8d97c4878c858888818a8381', key, 0)
         
         if 'please' in plain:
             print('key = ' + str(key) + ': ' + plain)
